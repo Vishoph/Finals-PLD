@@ -13,7 +13,7 @@ struct Item {
 
 // Function to display the main menu
 void displayMenu() {
-    std::cout << "\n=== Ergonomic Office Supplies Store ===\n";
+    std::cout << "\n=== Ergo thing ni Chiztir ===\n";
     std::cout << "1. View Inventory\n";
     std::cout << "2. Place an Order\n";
     std::cout << "3. Exit\n";
@@ -92,9 +92,9 @@ int main() {
     // Initialize inventory with items, prices, and quantities
     std::vector<Item> inventory = {
         {"X11 Mouse", 25.00, 10},
-        {"Wooden Wrist Rest", 15.00, 15},
-        {"Monitor Arm", 50.00, 5},
-        {"Ergo Chair", 200.00, 3}
+        {"Wooden Wrist Rest", 15.00, 10,}
+        {"Monitor Arm", 50.00, 10},
+        {"Ergo Chair", 200.00, 10}
     };
 
     int option;
